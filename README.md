@@ -1,3 +1,11 @@
+
+https://github.com/Danilo314/Examen_Auditoria_U3_Chite
+
+INFORME FINAL DE AUDITORIA DE SISTEMAS
+
+ENTIDAD AUDITADA: CORPORATE EPIS PILOT - SISTEMA DE HELP DESK CON INTELIGENCIA ARTIFICIAL
+
+
 FACULTAD DE INGENIERÍA
 ESCUELA DE INGENIERÍA DE SISTEMAS
 
@@ -30,7 +38,6 @@ Brian Danilo Chite Quispe (2021070015)
 
 TACNA – PERÚ
 2026 
-
 ÍNDICE
 Resumen Ejecutivo
 Antecedentes
@@ -131,7 +138,6 @@ Verificación de logs del sistema
 Pruebas de funcionamiento del sistema
 Revisión de configuraciones: Docker, docker-compose, Kubernetes, servicios
 Aplicación de listas de verificación: Basadas en OWASP, CWE y mejores prácticas
-
 7. HALLAZGOS Y OBSERVACIONES
 7.1. Hallazgo 1: Falta de Inicialización Automática de Base de Datos en Ejecución
 Descripción del hallazgo: La aplicación no garantiza la creación automática de la tabla tickets en la base de datos SQLite durante la ejecución del sistema. La inicialización solo se realiza durante el proceso de build del contenedor Docker mediante el script database_setup.py, lo que genera errores cuando la base de datos es montada como volumen o cuando el contenedor se reinicia sin reconstruirse.
@@ -147,6 +153,7 @@ Causa:
 Falta de verificación y creación automática de estructura de base de datos en el código de la aplicación principal
 Dependencia exclusiva del script de inicialización durante el build de Docker
 No se contempla el escenario de volúmenes montados que pueden iniciarse vacíos
+
 Efecto:
 Fallos en la funcionalidad principal del sistema (creación de tickets)
 Pérdida de disponibilidad del servicio
