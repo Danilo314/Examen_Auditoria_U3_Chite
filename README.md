@@ -10,9 +10,10 @@ Auditoría de Seguridad de Tecnologías de la Información (TI)
 Ubicación Geográfica:
 Tacna, Tacna, Perú 
 
-Materia de Control en TI:
-                 Corporate EPIS Pilot - Sistema de Help Desk con Inteligencia Artificial
+Materia de Control en TI: Corporate EPIS Pilot - Sistema de Help Desk con Inteligencia Artificial
+
 Lugar y Fecha de aprobación:
+
 Tacna, 24 de junio de 2026
 
 Curso:
